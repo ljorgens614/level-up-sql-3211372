@@ -5,3 +5,12 @@
 -- they plan to bring in their party.
 
 -- Hint: SQLite offers the INTEGER and REAL datatypes
+
+SELECT *
+FROM Customers
+
+CREATE TABLE InviteResponse
+(
+  CustomerID INTEGER,
+  PartySize INTEGER
+);
